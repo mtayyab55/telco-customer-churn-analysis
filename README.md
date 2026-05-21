@@ -134,7 +134,7 @@ ORDER BY churn_rate DESC;
 
 ## Dashboard Preview
 
-screenshots/Power Bi Dashboard.png
+![Power BI Dashboard](screenshots/Telco_PowerBI_Dashboard.png)
 
 ---
 

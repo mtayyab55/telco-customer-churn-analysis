@@ -134,7 +134,7 @@ ORDER BY churn_rate DESC;
 
 ## Dashboard Preview
 
-(Add Power BI dashboard screenshot here)
+screenshots/Power Bi Dashboard.png
 
 ---
 

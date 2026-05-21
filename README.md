@@ -282,7 +282,7 @@ telco-customer-churn-analysis/
 │   ├── 11_churn_rate_ranking.sql
 │   └── 12_customer_lifetime_value_analysis.sql
 │
-├── powerbi/
+├── power bi/
 │   └── Telco_Churn_Analysis.pbix
 │
 ├── screenshots/

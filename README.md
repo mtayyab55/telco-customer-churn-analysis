@@ -287,10 +287,10 @@ telco-customer-churn-analysis/
 │
 ├── screenshots/
 │   ├── dashboard_overview.png
-│   ├── contract_churn_pivot.png
+│   ├── churn_rate_summary.png
 │   ├── payment_method_pivot.png
 │   ├── internet_service_pivot.png
-│   └── tenure_group_pivot.png
+│   └── contract_churn_pivot.png
 │
 └── README.md
 ```

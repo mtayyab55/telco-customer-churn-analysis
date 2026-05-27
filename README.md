@@ -8,6 +8,64 @@ The goal was to identify customer segments with higher churn risk, analyze reven
 
 ---
 
+## Repository Structure
+
+```text
+telco-customer-churn-analysis/
+│
+├── data/
+│   └── Telco-Customer-Churn.csv
+│
+├── excel/
+│   └── Telco-Customer-Churn_Working.xls
+│
+├── sql/
+│   ├── 01_overall_churn_rate.sql
+│   ├── 02_churn_by_contract.sql
+│   ├── 03_churn_by_payment_method.sql
+│   ├── 04_churn_by_internet_service.sql
+│   ├── 05_revenue_by_churn.sql
+│   ├── 06_tenure_group_analysis.sql
+│   ├── 07_churn_by_senior_citizen.sql
+│   ├── 08_churn_by_paperless_billing.sql
+│   ├── 09_high_risk_customer_segments.sql
+│   ├── 10_top_revenue_loss_segments.sql
+│   ├── 11_churn_rate_ranking.sql
+│   └── 12_customer_lifetime_value_analysis.sql
+│
+├── power bi/
+│   └── Telco_Churn_Analysis.pbix
+│
+├── screenshots/
+│   ├── dashboard_overview.png
+│   ├── churn_rate_summary.png
+│   ├── payment_method_pivot.png
+│   ├── internet_service_pivot.png
+│   └── contract_churn_pivot.png
+│
+└── README.md
+```
+
+---
+
+## Skills Demonstrated
+
+- Data cleaning
+- Exploratory data analysis
+- Excel Pivot Tables
+- SQL aggregation
+- SQL window functions
+- SQL CTEs
+- SQL `CASE` logic
+- KPI development
+- Customer segmentation
+- Revenue analysis
+- Power BI dashboard design
+- Business insight generation
+
+---
+---
+
 ## Tools Used
 
 - Excel
@@ -254,63 +312,6 @@ The Power BI file is stored in the `powerbi/` folder.
 - Retained customers had higher average lifetime value because they stayed longer, even when churned customers sometimes had higher monthly charges.
 
 - High-risk segments were concentrated among customers with month-to-month contracts, electronic check payment methods, and fiber optic internet service.
-
----
-
-## Repository Structure
-
-```text
-telco-customer-churn-analysis/
-│
-├── data/
-│   └── Telco-Customer-Churn.csv
-│
-├── excel/
-│   └── Telco-Customer-Churn_Working.xls
-│
-├── sql/
-│   ├── 01_overall_churn_rate.sql
-│   ├── 02_churn_by_contract.sql
-│   ├── 03_churn_by_payment_method.sql
-│   ├── 04_churn_by_internet_service.sql
-│   ├── 05_revenue_by_churn.sql
-│   ├── 06_tenure_group_analysis.sql
-│   ├── 07_churn_by_senior_citizen.sql
-│   ├── 08_churn_by_paperless_billing.sql
-│   ├── 09_high_risk_customer_segments.sql
-│   ├── 10_top_revenue_loss_segments.sql
-│   ├── 11_churn_rate_ranking.sql
-│   └── 12_customer_lifetime_value_analysis.sql
-│
-├── power bi/
-│   └── Telco_Churn_Analysis.pbix
-│
-├── screenshots/
-│   ├── dashboard_overview.png
-│   ├── churn_rate_summary.png
-│   ├── payment_method_pivot.png
-│   ├── internet_service_pivot.png
-│   └── contract_churn_pivot.png
-│
-└── README.md
-```
-
----
-
-## Skills Demonstrated
-
-- Data cleaning
-- Exploratory data analysis
-- Excel Pivot Tables
-- SQL aggregation
-- SQL window functions
-- SQL CTEs
-- SQL `CASE` logic
-- KPI development
-- Customer segmentation
-- Revenue analysis
-- Power BI dashboard design
-- Business insight generation
 
 ---
 

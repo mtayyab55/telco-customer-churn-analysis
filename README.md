@@ -231,7 +231,7 @@ The dashboard includes:
 - Churn by tenure group
 - Customer segmentation visuals
 
-The Power BI file is stored in the `power%20bi/` folder.
+The Power BI file is stored in the `power%bi/` folder.
 
 ---
 

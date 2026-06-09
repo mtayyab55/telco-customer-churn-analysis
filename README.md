@@ -190,21 +190,18 @@ SQL queries are stored in the `sql/` folder.
 
 ## SQL Files Included
 
-The project includes the following SQL scripts:
-
-```text
-01_overall_churn_rate.sql
-02_churn_by_contract.sql
-03_churn_by_payment_method.sql
-04_churn_by_internet_service.sql
-05_revenue_by_churn.sql
-06_tenure_group_analysis.sql
-07_churn_by_senior_citizen.sql
-08_churn_by_paperless_billing.sql
-09_high_risk_customer_segments.sql
-10_top_revenue_loss_segments.sql
-11_churn_rate_ranking.sql
-12_customer_lifetime_value_analysis.sql
+- [Overall Churn Rate](sql/01_overall_churn_rate.sql)
+- [Churn by Contract Type](sql/02_churn_by_contract.sql)
+- [Churn by Payment Method](sql/03_churn_by_payment_method.sql)
+- [Churn by Internet Service](sql/04_churn_by_internet_service.sql)
+- [Revenue by Churn Status](sql/05_revenue_by_churn.sql)
+- [Tenure Group Analysis](sql/06_tenure_group_analysis.sql)
+- [Churn by Senior Citizen](sql/07_churn_by_senior_citizen.sql)
+- [Churn by Paperless Billing](sql/08_churn_by_paperless_billing.sql)
+- [High-Risk Customer Segments](sql/09_high_risk_customer_segments.sql)
+- [Top Revenue Loss Segments](sql/10_top_revenue_loss_segments.sql)
+- [Churn Rate Ranking](sql/11_churn_rate_ranking.sql)
+- [Customer Lifetime Value Analysis](sql/12_customer_lifetime_value_analysis.sql)
 ```
 
 ---

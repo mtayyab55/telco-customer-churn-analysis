@@ -207,7 +207,7 @@ SQL queries are stored in the `sql/` folder.
 ---
 
 ## SQL Query Highlights
----
+
 ### Overall Churn Rate
 
 ```sql
